@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import { getDistance } from "../Utils/mapHelper";
 import GoogleMap from "google-map-react";
 import Marker from "./Marker";
-import { useState } from "react";
 
 const Results = ({
   API_KEY,
